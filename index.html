@@ -48,6 +48,14 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
+                <!-- <div class="col-3 px-4">
+                    <ul class="social-icon-list p-0 d-flex justify-content-between">
+                        <li class="social-icon m-0" id="twitter-icon"></li>
+                        <li class="social-icon m-0" id="instagram-icon"></li>
+                        <li class="social-icon m-0" id="discord-icon"></li>
+                        <li class="social-icon m-0" id="youtube-icon"></li>
+                    </ul>
+                </div> -->
             </div>
         </nav>
     </header>
@@ -124,12 +132,12 @@
             </div>
         </section>
         <section class="row mb-4" id="roadmap">
-            <h2>Roadmap</h2>
-            <p class="align-center"><strong>Chill Bears Roadmap 2.0 The Come Back Store... IT'S TIME TO RISE!</strong>
+            <h2 class="text-center">Roadmap</h2>
+            <p class="align-center narrow mx-auto"><strong>Chill Bears Roadmap 2.0 The Come Back Store... IT'S TIME TO RISE!</strong>
                 It's an honor to stand part with a community that successfully overtook stagnant, poor leadership. We
                 united and showed the power of community, and that's why this will forever live on as a
                 community-decided NFT. <strong>Check out our new roadmap...</strong></p>
-            <div class="accordion" id="accordionExample">
+            <div class="accordion" id="accordion">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -138,9 +146,9 @@
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
+                        data-bs-parent="#accordion">
                         <div class="accordion-body">
-                            <ul>
+                            <ul class="fire-icon-list">
                                 <li>Community Wallet Address: [TO BE FILLED IN]</li>
                                 <li>The Chill Bears leadership team pre-funded wallet with approximately 50k</li>
                                 <li>30% of funds generated from new mints will be allocated to the Community Wallet</li>
@@ -166,7 +174,7 @@
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#accordionExample">
+                        data-bs-parent="#accordion">
                         <div class="accordion-body">
                         </div>
                     </div>
@@ -179,7 +187,7 @@
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#accordionExample">
+                        data-bs-parent="#accordion">
                         <div class="accordion-body">
                         </div>
                     </div>
@@ -191,8 +199,8 @@
                             January 2022: Snapshot Vault Voting Implemented
                         </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                        data-bs-parent="#accordionExample">
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordion">
                         <div class="accordion-body">
                         </div>
                     </div>
@@ -204,8 +212,8 @@
                             January 2022: HoneyComb Drop & Staking
                         </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                        data-bs-parent="#accordionExample">
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#accordion">
                         <div class="accordion-body">
                         </div>
                     </div>
@@ -215,8 +223,12 @@
         <section class="row mb-4 align-items-center" id="contact">
             <div class="col-6">
                 <h2>Contact Us</h2>
-                <p>Super-excited and have more questions? <strong>Holla at us on Discord! <figure id="discord"></figure>
-                    </strong></p>
+                <p class="d-flex justify-content-start align-items-center">
+                    <span>
+                        Super-excited and have more questions? <strong>Holla at us on Discord!</strong> 
+                    </span>
+                    <span class="social-icon mx-2" id="discord-icon" href="#"></span>
+                    </p>
             </div>
             <div class="col-6 side-bear" id="contact-bear"></div>
         </section>
@@ -233,23 +245,23 @@
                     <figure id="bear-member-image"></figure>
                     <div class="row justify-content-evenly">
                         <div class="col-2 member">
-                            <div>NIFTY TODD</div>
+                            <h5>NIFTY TODD</h5>
                             <div>Creative</div>
                         </div>
                         <div class="col-2 member">
-                            <div>NIFTY UBI</div>
+                            <h5>NIFTY UBI</h5>
                             <div>Nifty Partner</div>
                         </div>
                         <div class="col-2 member">
-                            <div>NIFTY NICK</div>
+                            <h5>NIFTY NICK</h5>
                             <div>Top Dawg</div>
                         </div>
                         <div class="col-2 member">
-                            <div>NIFTY DEVON</div>
+                            <h5>NIFTY DEVON</h5>
                             <div>Principal Engineer</div>
                         </div>
                         <div class="col-2 member">
-                            <div>NIFTY RECKLESS</div>
+                            <h5>NIFTY RECKLESS</h5>
                             <div>Nifty Partner</div>
                         </div>
                     </div>
@@ -257,30 +269,40 @@
             </div>
         </section>
         <footer class="container row d-flex justify-content-evenly">
-            <div class="col-3">
-                <figure id="icon"></figure>
-                <div>Chill Bears Society</div>
+            <div class="col-3 px-4 d-flex justify-content-center align-items-center">
+                <figure class="m-2" id="chillbears-icon"></figure>
+                <h5>Chill Bears<br />Society</h5>
             </div>
-            <div class="col-3">
+            <div class="col-3 px-4">
                 <h3>Links</h3>
-                <ul>
-                    <li>Chill Bears</li>
-                    <li>Our Story</li>
-                    <li>Roadmap</li>
-                    <li>Our Team</li>
-                    <li>Contact</li>
+                <ul id="footer-links">
+                    <li>
+                        <a class="orange-link" href="#welcome">Chill Bears</a>
+                    </li>
+                    <li>
+                        <a class="orange-link" href="#about">Our Story</a>
+                    </li>
+                    <li>
+                        <a class="orange-link" href="#roadmap">Roadmap</a>
+                    </li>
+                    <li>
+                        <a class="orange-link" href="#tean">Our Team</a>
+                    </li>
+                    <li>
+                        <a class="orange-link" href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col-3 px-4">
                 <h3>Social</h3>
-                <ul>
-                    <li>Twitter</li>
-                    <li>Instagram</li>
-                    <li>Discord</li>
-                    <li>YouTube</li>
+                <ul class="social-icon-list p-0 d-flex justify-content-between">
+                    <li class="social-icon m-0" id="twitter-icon"></li>
+                    <li class="social-icon m-0" id="instagram-icon"></li>
+                    <li class="social-icon m-0" id="discord-icon"></li>
+                    <li class="social-icon m-0" id="youtube-icon"></li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col-3 px-4">
                 <h3>Copyright</h3>
                 <p>&copy; Chill Bears Society<br />
                     All Rights Reserved</p>
