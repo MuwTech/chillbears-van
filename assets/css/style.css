@@ -83,6 +83,10 @@ ul.social-icon-list {
     position: relative;
 }
 
+#original-gallery-images {
+    height: 100%;
+}
+
 #original-badge {
     background-image: url("../images/original-badge.png");
     background-size: contain;
@@ -102,15 +106,19 @@ ul.social-icon-list {
 
 #original-top::after {
     background-image: url("../images/original-top.png");
+    background-position: 0px 0px;
+    animation: animatedBackgroundRight 10s linear infinite;
 }
 
 #original-bottom::after {
     background-image: url("../images/original-bottom.png");
     left: -5rem;
+    background-position: 0px 0px;
+    animation: animatedBackgroundLeft 10s linear infinite;
 }
 
 .original-gallery {
-    height: 22rem;
+    height: 50%;
     position: relative;
 }
 
@@ -225,3 +233,22 @@ section {
     background-size: contain;
     height: 20rem;
 }
+
+@keyframes animatedBackgroundRight {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes animatedBackgroundLeft {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -100% 0;
+    }
+}
+
