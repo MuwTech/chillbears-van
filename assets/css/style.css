@@ -107,14 +107,14 @@ ul.social-icon-list {
 #original-top::after {
     background-image: url("../images/original-top.png");
     background-position: 0px 0px;
-    animation: animatedBackgroundRight 10s linear infinite;
+    animation: animatedBackgroundRight 50s linear infinite;
 }
 
 #original-bottom::after {
     background-image: url("../images/original-bottom.png");
     left: -5rem;
     background-position: 0px 0px;
-    animation: animatedBackgroundLeft 10s linear infinite;
+    animation: animatedBackgroundLeft 50s linear infinite;
 }
 
 .original-gallery {
@@ -239,7 +239,7 @@ section {
         background-position: 0 0;
     }
     to {
-        background-position: 100% 0;
+        background-position: 300% 0;
     }
 }
 
@@ -248,7 +248,7 @@ section {
         background-position: 0 0;
     }
     to {
-        background-position: -100% 0;
+        background-position: -300% 0;
     }
 }
 
