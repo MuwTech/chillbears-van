@@ -9,6 +9,10 @@
     margin: 0 auto;
 }
 
+.bg-light {
+    background-color: inherit!important;
+}
+
 .navbar-light .navbar-nav .nav-link,
 .orange-link  {
     font-size: 1.2rem;
@@ -251,8 +255,9 @@ section {
 #bear-member-image {
     background-image: url("../images/bear-member-image.png");
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 20rem;
+    background-size: cover;
+    width: 100%;
+    /* height: auto; */
 }
 
 @keyframes animatedBackgroundRight {
