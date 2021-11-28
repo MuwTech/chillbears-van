@@ -125,6 +125,7 @@ ul.social-icon-list {
     background-image: url("../images/original-badge.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     height: 15rem;
     width: 15rem;
     margin: 0 auto;
